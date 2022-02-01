@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(182, 35, 174);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.container_pok {
+  width: 15rem;
+  line-height: 0.5;
+  height: 15rem;
+  border: 2px solid white;
+  box-shadow: 10px 10px 10px 0 grey;
+  border-radius: 5px;
+}
+
+.container_pok:nth-child(odd) {
+  background:red;
+}
+
+.container_pok:nth-child(even) {
+  background: greenyellow;
+}
+
+.text {
+  margin-top: 2rem;
+}
+
+.pic {
+  margin-left: 4rem;
+  width: 15rem;
+  
+  display: relative;
+}
+
+
+.whole_container {
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
